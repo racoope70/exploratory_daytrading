@@ -18,7 +18,7 @@
 ## Overview  
 This repository contains an ongoing pipeline for **day trading with machine learning**, integrating supervised learning, deep reinforcement learning, and unsupervised anomaly detection models. Using hourly stock data, the system generates, tests, and optimizes algorithmic trading strategies through walkforward evaluation, signal labeling, model selection, and performance visualization.
 
-> ⚠️ **Work in Progress**: The pipeline is under active development and expanding to support live testing, deployment automation, and full white paper documentation.
+> **Work in Progress**: The pipeline is under active development and expanding to support live testing, deployment automation, and full white paper documentation.
 
 ---
 
@@ -128,23 +128,23 @@ python walkforward/xgboost_walkforward.py
 
 ## Model Performance  
 
-**🧠 Supervised Learning**
-- ✅ Random Forest (`random_forest_train.py`)
-- ✅ XGBoost (`xgboost_walkforward.py`)
-- ✅ LightGBM (`lightgbm_walkforward.py`)
-- ✅ Deep Q-Learning (`deep_q_walkforward.py`)
-- ✅ Deep SARSA (`deep_sarsa_walkforward.py`)
-- ✅ LSTM / GRU (`lstm_trade_model.py`, `gru_train.py`)
+**Supervised Learning**
+- Random Forest (`random_forest_train.py`)
+- XGBoost (`xgboost_walkforward.py`)
+- LightGBM (`lightgbm_walkforward.py`)
+- Deep Q-Learning (`deep_q_walkforward.py`)
+- Deep SARSA (`deep_sarsa_walkforward.py`)
+- LSTM / GRU (`lstm_trade_model.py`, `gru_train.py`)
 
-**🔄 Reinforcement Learning**
-- ✅ SAC - Soft Actor-Critic (`sac_walkforward.py`)
-- ✅ PPO - Proximal Policy Optimization (`ppo_walkforward.py`, `ppo_multi.py`)
-- ✅ TD3 - Twin Delayed DDPG (`td3_walkforward.py`)
+**Reinforcement Learning**
+- SAC - Soft Actor-Critic (`sac_walkforward.py`)
+- PPO - Proximal Policy Optimization (`ppo_walkforward.py`, `ppo_multi.py`)
+- TD3 - Twin Delayed DDPG (`td3_walkforward.py`)
 
-**🧪 Unsupervised Learning / Anomaly Detection**
-- ✅ Isolation Forest, Clustering (`anomaly_pipeline.py`)
-- ✅ Autoencoders (`ae_anomaly.py`, `autoencoder_pipeline.py`)
-- ✅ DBSCAN / UMAP / t-SNE (`anomaly_viz_cluster.py`)
+**Unsupervised Learning / Anomaly Detection**
+- Isolation Forest, Clustering (`anomaly_pipeline.py`)
+- Autoencoders (`ae_anomaly.py`, `autoencoder_pipeline.py`)
+- DBSCAN / UMAP / t-SNE (`anomaly_viz_cluster.py`)
 
 ---
 
@@ -160,13 +160,13 @@ python walkforward/xgboost_walkforward.py
 
 ## Further Innovations & Expansion Plans  
 
-- ✅ **Step 4: Live Testing on New Market Data**  
-- ✅ **Step 5: Deploy as a Live Trading System with Execution Automation**  
-- ⏳ **Write and Publish a White Paper Documenting Strategy & Results**  
-- ⏳ Integrate RealTest/QuantConnect for deployment validation  
-- ⏳ Build GUI for real-time trade monitoring  
-- ⏳ Optimize deep learning models for multi-stock multi-agent learning  
-- ⏳ Add macroeconomic & sentiment data for multi-source signal stacking
+- **Live Testing on New Market Data**  
+- **Deploy as a Live Trading System with Execution Automation**  
+- **Write and Publish a White Paper Documenting Strategy & Results**  
+- Integrate RealTest/QuantConnect for deployment validation  
+- Build GUI for real-time trade monitoring  
+- Optimize deep learning models for multi-stock multi-agent learning  
+- Add macroeconomic & sentiment data for multi-source signal stacking
 
 ---
 
@@ -176,8 +176,10 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 ## Acknowledgments  
-- `yfinance`, `ta`, `pandas_ta`, `sklearn`, `xgboost`, `lightgbm`, `stable-baselines3`  
-- Hugging Face, OpenAI Gym, and Google Colab  
-- GitHub Copilot & community feedback  
-- Personal rule-based trading experience as foundation
+- yfinance, ta, pandas_ta, scikit-learn, xgboost, lightgbm, stable-baselines3
 
+- OpenAI Gym for RL environment structure
+
+- Google Colab for enabling GPU-based model training and prototyping
+
+- Personal rule-based trading experience as the foundational logic
