@@ -128,35 +128,6 @@ python walkforward/xgboost_walkforward.py
 ![download](https://github.com/user-attachments/assets/36604156-36e0-4421-8cf2-bc74d33737af)
 
 
-
-
-**1. Portfolio Equity Curve**  
-Shows how a strategy performs compared to buy-and-hold.  
-![Portfolio Equity Curve](results/plots/portfolio_equity_curve.png)
-
-**2. Feature Importance Bar Chart**  
-Highlights which features most impact model decisions.  
-![Feature Importance](results/plots/feature_importance_bar_chart.png)
-
-**3. Classification Confusion Matrix**  
-Visual summary of prediction vs. actual for supervised models.  
-![Confusion Matrix](results/plots/classification_confusion_matrix.png)
-
-**4. Signal Overlay Plot**  
-Illustrates model-generated signals over price data.  
-![Signal Overlay](results/plots/signal_overlay_plot.png)
-
-**5. Anomaly Cluster Plot**  
-2D projection of data points, highlighting anomalies.  
-![Anomaly Clusters](results/plots/anomaly_cluster_plot.png)
-
-**6. RL Training Reward Curve**  
-Shows agent learning via reward per episode over time.  
-![RL Reward Curve](results/plots/rl_reward_curve.png)
-
-**7. Hyperparameter Tuning Heatmap**  
-Visualizes model performance across hyperparameter settings.  
-![Hyperparameter Heatmap](results/plots/hyperparameter_heatmap.png)
 ## Model Performance  
 
 ** Supervised Learning**
