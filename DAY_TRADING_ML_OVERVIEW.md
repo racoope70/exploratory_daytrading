@@ -125,7 +125,7 @@ python walkforward/xgboost_walkforward.py
 ![download (2)](https://github.com/user-attachments/assets/81ca0cd4-ca46-4e72-99cb-1cd9ef43dc42)
 
 ### Top and Bottom models by Average Score
-![Top_Models_By_Average_Score](https://github.com/user-attachments/assets/2f190a6d-e598-4b36-9eae-283c6d4e31e9)
+![output](https://github.com/user-attachments/assets/0b4b53db-5008-488d-a577-cfb2259d73b8)
 
 ### Random Forest Feature Importance (Top 15 Features)
 ![RANDOM_FOREST_FEATURE](https://github.com/user-attachments/assets/45fdeadd-7195-4c96-89b3-a26bef596ee2)
