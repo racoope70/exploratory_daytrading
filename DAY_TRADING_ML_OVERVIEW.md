@@ -118,10 +118,13 @@ python walkforward/xgboost_walkforward.py
 
 ## Visualizations & Results
 
+### Portfolio Performance (ORCL Strategy)
 ![download (1)](https://github.com/user-attachments/assets/23af4f86-1b1e-49d9-91a8-fe7d0281b94c)
 
+### Buy/Sell Signal Overlay
 ![download (2)](https://github.com/user-attachments/assets/81ca0cd4-ca46-4e72-99cb-1cd9ef43dc42)
 
+### Model Selection: Top vs Bottom Scorers
 ![download](https://github.com/user-attachments/assets/36604156-36e0-4421-8cf2-bc74d33737af)
 
 
