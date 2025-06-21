@@ -124,8 +124,8 @@ python walkforward/xgboost_walkforward.py
 ### Buy/Sell Signal Overlay
 ![download (2)](https://github.com/user-attachments/assets/81ca0cd4-ca46-4e72-99cb-1cd9ef43dc42)
 
-### Model Selection: Top vs Bottom Scorers
-![download](https://github.com/user-attachments/assets/36604156-36e0-4421-8cf2-bc74d33737af)
+### Top and Bottom models by Average Score
+![Top_Models_By_Average_Score](https://github.com/user-attachments/assets/2f190a6d-e598-4b36-9eae-283c6d4e31e9)
 
 ### Random Forest Feature Importance (Top 15 Features)
 ![RANDOM_FOREST_FEATURE](https://github.com/user-attachments/assets/45fdeadd-7195-4c96-89b3-a26bef596ee2)
