@@ -118,6 +118,15 @@ python walkforward/xgboost_walkforward.py
 
 ## Visualizations & Results
 
+![download (1)](https://github.com/user-attachments/assets/23af4f86-1b1e-49d9-91a8-fe7d0281b94c)
+
+![download (2)](https://github.com/user-attachments/assets/81ca0cd4-ca46-4e72-99cb-1cd9ef43dc42)
+
+![download](https://github.com/user-attachments/assets/36604156-36e0-4421-8cf2-bc74d33737af)
+
+
+
+
 **1. Portfolio Equity Curve**  
 Shows how a strategy performs compared to buy-and-hold.  
 ![Portfolio Equity Curve](results/plots/portfolio_equity_curve.png)
