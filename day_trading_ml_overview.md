@@ -65,7 +65,7 @@ To simulate realistic trading outcomes and reduce overfitting risk:
 - Add strategy-specific stop-loss/take-profit rules during backtests
 - Expand asset universe to ETFs, crypto, and FX
 - Create a Streamlit-based model selector dashboard
-
+- Deploy live testing on paper trading platforms to validate real-time performance
 ---
 
 ## References
