@@ -61,7 +61,7 @@ To simulate realistic trading outcomes and reduce overfitting risk:
 
 
 - Portfolio growth plots for each model and stock
-  ![Top_Models_By_Average_Score](https://github.com/user-attachments/assets/06c3b84f-fc6b-490f-88ae-18419d3b2e69)
+  ![Top_Models_By_Average_Score_Final](https://github.com/user-attachments/assets/8f33860b-925c-4d24-b1a6-9a4afdf7ddff)
 
 - Anomaly detection overlays on price data for Apple, Microsoft, and Tesla
   ![APPL_ANOMALIES](https://github.com/user-attachments/assets/2313016c-23ea-4be2-9679-9566a564fd72)
