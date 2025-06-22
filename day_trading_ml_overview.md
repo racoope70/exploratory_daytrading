@@ -60,8 +60,14 @@ To simulate realistic trading outcomes and reduce overfitting risk:
   ![RANDOM_FOREST_FEATURE](https://github.com/user-attachments/assets/1ea6c45d-8d77-4ba2-ac08-bb770ffece0d)
 
 - Portfolio growth plots for each model and stock
-- Anomaly detection overlays on price data
+  ![Top_Models_By_Average_Score](https://github.com/user-attachments/assets/06c3b84f-fc6b-490f-88ae-18419d3b2e69)
 
+- Anomaly detection overlays on price data for Apple, Microsoft, and Tesla
+  ![APPL_ANOMALIES](https://github.com/user-attachments/assets/2313016c-23ea-4be2-9679-9566a564fd72)
+  ![MSFT_ANOMALY](https://github.com/user-attachments/assets/4c5e7478-f29b-41f4-9e34-277ca96b5481)
+  ![TSLA_Anomaly](https://github.com/user-attachments/assets/2a587385-16b1-428f-9dda-3885cceb269d)
+
+  
 ---
 
 ## Future Directions
