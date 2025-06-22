@@ -55,9 +55,10 @@ To simulate realistic trading outcomes and reduce overfitting risk:
 
 ## Visualization Outputs
 - Feature importance bar plots for XGBoost, LightGBM, and Random Forest
-  ![XGBOOST_FEATURE](https://github.com/user-attachments/assets/cfcc62e7-84a6-4137-a9a4-bc66f49e0e0d)
-  ![LIGHTGBN_FEATURE](https://github.com/user-attachments/assets/89efbf32-64ea-4871-946c-7140087d1700)
-  ![RANDOM_FOREST_FEATURE](https://github.com/user-attachments/assets/1ea6c45d-8d77-4ba2-ac08-bb770ffece0d)
+  ![xgboost_feature_importance_aligned](https://github.com/user-attachments/assets/f8ec1ce1-c20c-4e4b-bad9-443d0d10eb83)
+  ![lightgbm_feature_importance_normalized_simulated](https://github.com/user-attachments/assets/14bb2ac2-b283-4aa1-8453-6fa86cc232a2)
+  ![random_forest_feature_importance_aligned](https://github.com/user-attachments/assets/18ce2c6f-f978-48fb-916e-6f06eacb82af)
+
 
 - Portfolio growth plots for each model and stock
   ![Top_Models_By_Average_Score](https://github.com/user-attachments/assets/06c3b84f-fc6b-490f-88ae-18419d3b2e69)
