@@ -2,7 +2,7 @@
 
 This repository presents a robust and research-driven machine learning framework for algorithmic day trading using high-frequency stock data. It integrates supervised and reinforcement learning models with advanced backtesting and signal labeling strategies across a pipeline exceeding 70 Python scripts. The goal is not only high performance but also methodological integrity, reproducibility, and readiness for real-world trading.
 
-## 🔍 Project Scope
+## Project Scope
 - **Time Frame**: 720 days of historical 1-hour OHLCV data from Yahoo Finance
 - **Assets**: Multi-asset support across 53+ stocks
 - **Features**: Over 30 engineered technical indicators
@@ -13,7 +13,7 @@ This repository presents a robust and research-driven machine learning framework
 
 ---
 
-## ✅ Core Methodologies
+## Core Methodologies
 
 ### Time-Aware Validation
 To simulate realistic trading outcomes and reduce overfitting risk:
@@ -46,21 +46,21 @@ To simulate realistic trading outcomes and reduce overfitting risk:
 
 ---
 
-## 📂 Project Highlights
+## Project Highlights
 - **70+ Modular Scripts**: Each model has dedicated training/evaluation scripts (e.g. `ppo_walkforward.py`, `ae_anomaly.py`, `xgboost_train.py`).
 - **Colab-Ready & GPU Optimized**: Built to run on Google Colab with GPU acceleration, automatic memory cleanup, and save/load support to Google Drive.
 - **Scalable for Deployment**: Walk-forward architecture is ready for real-time trading logic and model retraining.
 
 ---
 
-## 📊 Visualization Outputs
+## Visualization Outputs
 - Feature importance bar plots for XGBoost, LightGBM, and Random Forest
 - Portfolio growth plots for each model and stock
 - Anomaly detection overlays on price data
 
 ---
 
-## 📘 Future Directions
+## Future Directions
 - Implement Triple Barrier Labeling (profit/loss/timeout exit logic)
 - Add strategy-specific stop-loss/take-profit rules during backtests
 - Expand asset universe to ETFs, crypto, and FX
@@ -68,16 +68,11 @@ To simulate realistic trading outcomes and reduce overfitting risk:
 
 ---
 
-## 📎 References
+## References
 - ForecastEgy: [Time Series CV](https://forecastegy.com/posts/time-series-cross-validation-python/)
 - QuantInsti: [Purging & Embargo](https://blog.quantinsti.com/cross-validation-embargo-purging-combinatorial/)
 - Medium (Y. Oz): [Triple Barrier Method](https://medium.com/@yairoz/the-triple-barrier-method-labeling-financial-time-series-for-ml-in-elixir-e539301b90d6)
 - dotData: [Feature Engineering Leakage](https://dotdata.com/blog/preventing-data-leakage-in-feature-engineering-strategies-and-solutions/)
-
----
-
-## 🔬 Research Integrity Statement
-Every model, label, and signal in this pipeline is validated using out-of-sample walk-forward evaluation. No data leakage, label contamination, or static splits are permitted. This ensures results reflect truly live-like performance — not artifacts of hindsight.
 
 ---
 
