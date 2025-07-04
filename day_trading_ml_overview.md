@@ -1,91 +1,125 @@
-# Day Trading with Machine Learning: Research-Centric Overview
 
-This repository presents a robust and research-driven machine learning framework for algorithmic day trading using high-frequency stock data. It integrates supervised and reinforcement learning models with advanced backtesting and signal labeling strategies across a pipeline exceeding 70 Python scripts. The goal is not only high performance but also methodological integrity, reproducibility, and readiness for real-world trading.
+# Day Trading With Machine Learning – Project Overview
 
-## Project Scope
-- **Time Frame**: 720 days of historical 1-hour OHLCV data from Yahoo Finance
-- **Assets**: Multi-asset support across 53+ stocks
-- **Features**: Over 30 engineered technical indicators
-- **Models**:
-  - Supervised: XGBoost, LightGBM, Random Forest, LSTM, GRU
-  - Reinforcement Learning: SAC, PPO, TD3, Deep Q, Deep SARSA
-  - Unsupervised: Autoencoders, Isolation Forest, DBSCAN, KMeans, UMAP
+This project explores the design, implementation, and deployment of machine learning strategies for day trading U.S. equities using high-frequency (hourly) data. The focus is on combining supervised learning, reinforcement learning, and unsupervised methods, with walkforward validation and live paper trading execution through Alpaca.
 
 ---
 
-## Core Methodologies
+## ✅ Project Goals
 
-### Time-Aware Validation
-To simulate realistic trading outcomes and reduce overfitting risk:
-- **Walk-Forward Validation**: Models are retrained on rolling or expanding training windows, then evaluated on strictly forward test segments.
-- **Multiple Folds**: Performance is aggregated over 10+ rolling steps (e.g., train 660d → test 60d), improving confidence.
-- **Gap Between Windows**: A temporal gap is introduced to avoid trailing indicators contaminating test data.
-- **Nested TimeSeriesSplit**: Inner folds tune hyperparameters; outer folds evaluate generalization.
-
-### Signal Labeling
-- **Dynamic Quantiles**: Buy/Sell thresholds are computed from training data only to prevent look-ahead bias.
-- **Triple Barrier Labeling** (Planned): Models will soon incorporate event-based outcomes using stop-loss and take-profit logic for more realistic trade simulation.
-
-### Feature Engineering
-- **Redundancy Elimination**: Correlation analysis and feature importance pruning reduce multicollinearity.
-- **Rolling Feature Recalculation**: All technical indicators and scalers are recalculated fresh per walk-forward fold to prevent leakage.
-
-### Data Leakage Mitigation
-- **Purged Cross-Validation**: Ensures no overlap between label horizons and training data.
-- **Strict Temporal Ordering**: No shuffling or random splits. Only scikit-learn’s `TimeSeriesSplit` or manual slicing used.
-- **Isolated Feature Scaling**: Standardization is performed only on training data, then applied to test data.
-
-### Unsupervised Learning Validation
-- **Anomaly Detection**: Autoencoders and Isolation Forests are trained per walk window; their performance is gauged via return impact of anomaly-filtered strategies.
-- **Clustering**: KMeans/DBSCAN clustering is done only on training folds. Clusters are interpreted and tested for regime identification.
-
-### Model Evaluation
-- **Metrics**: Sharpe Ratio, Max Drawdown, Accuracy, Final Portfolio Value
-- **Variance Reporting**: Metrics include mean/std across multiple seeds to show robustness
-- **Baselines**: Compared against simple strategies (e.g., moving average crossover) for context
+- Implement a full end-to-end machine learning pipeline.
+- Support both backtesting (QuantConnect) and live trading (Alpaca).
+- Apply walkforward validation to simulate real-world trading performance.
+- Integrate model comparison, feature selection, risk metrics, and result visualization.
 
 ---
 
-## Project Highlights
-- **70+ Modular Scripts**: Each model has dedicated training/evaluation scripts (e.g. `ppo_walkforward.py`, `ae_anomaly.py`, `xgboost_train.py`).
-- **Colab-Ready & GPU Optimized**: Built to run on Google Colab with GPU acceleration, automatic memory cleanup, and save/load support to Google Drive.
-- **Scalable for Deployment**: Walk-forward architecture is ready for real-time trading logic and model retraining.
+## 📂 Directory Structure
+
+```
+lightgbm/
+├── models/
+│   ├── model_AAPL.txt
+│   ├── model_MSFT.txt
+│   └── ...
+├── scalers/
+│   ├── scaler_AAPL.pkl
+│   ├── scaler_MSFT.pkl
+│   └── ...
+├── features/
+│   ├── features_AAPL.txt
+│   ├── features_MSFT.txt
+│   └── ...
+├── metrics/
+│   └── lightgbm_walkforward_summary.csv
+├── plots/
+│   └── AAPL_portfolio_value.png
+```
+
+This structure allows storing trained models, scalers, and feature sets per stock ticker for later retrieval during live trading or analysis.
 
 ---
 
-## Visualization Outputs
-- Feature importance bar plots for XGBoost, LightGBM, and Random Forest
-  ![xgboost_feature_importance_aligned](https://github.com/user-attachments/assets/f8ec1ce1-c20c-4e4b-bad9-443d0d10eb83)
-  ![lightgbm_feature_importance_normalized_simulated](https://github.com/user-attachments/assets/14bb2ac2-b283-4aa1-8453-6fa86cc232a2)
-  ![random_forest_feature_importance_aligned](https://github.com/user-attachments/assets/18ce2c6f-f978-48fb-916e-6f06eacb82af)
+## 📊 LightGBM Model Performance (Top 5)
 
+These are the top-performing stocks by final portfolio value using the walkforward backtesting pipeline:
 
-- Portfolio growth plots for each model and stock
-  ![Top_Models_By_Average_Score_Darker_PPO](https://github.com/user-attachments/assets/e65db09d-4dc8-4358-b14c-30cd796f640e)
+| Ticker | Final_Portfolio | Return_% | Sharpe | Accuracy | F1_Score | Drawdown |
+|--------|----------------:|---------:|--------:|----------:|----------:|----------:|
+| MSFT   | 113902.79       | 13.90    | 0.2136 | 0.489     | 0.2919    | 20108.83  |
+| AAPL   | 106302.43       | 6.30     | 0.1187 | 0.4907    | 0.2495    | 20349.34  |
+| NVDA   | 104822.77       | 4.82     | 0.1132 | 0.4813    | 0.2514    | 21230.21  |
+| GOOGL  | 103981.14       | 3.98     | 0.1068 | 0.4721    | 0.2432    | 22594.12  |
+| AMZN   | 102764.55       | 2.76     | 0.0983 | 0.4682    | 0.2378    | 23985.00  |
 
-- Anomaly detection overlays on price data for Apple, Microsoft, and Tesla
-  ![APPL_ANOMALIES](https://github.com/user-attachments/assets/2313016c-23ea-4be2-9679-9566a564fd72)
-  ![MSFT_ANOMALY](https://github.com/user-attachments/assets/4c5e7478-f29b-41f4-9e34-277ca96b5481)
-  ![TSLA_Anomaly](https://github.com/user-attachments/assets/2a587385-16b1-428f-9dda-3885cceb269d)
-
-  
----
-
-## Future Directions
-- Implement Triple Barrier Labeling (profit/loss/timeout exit logic)
-- Add strategy-specific stop-loss/take-profit rules during backtests
-- Expand asset universe to ETFs, crypto, and FX
-- Create a Streamlit-based model selector dashboard
-- Deploy live testing on paper trading platforms to validate real-time performance
----
-
-## References
-- ForecastEgy: [Time Series CV](https://forecastegy.com/posts/time-series-cross-validation-python/)
-- QuantInsti: [Purging & Embargo](https://blog.quantinsti.com/cross-validation-embargo-purging-combinatorial/)
-- Medium (Y. Oz): [Triple Barrier Method](https://medium.com/@yairoz/the-triple-barrier-method-labeling-financial-time-series-for-ml-in-elixir-e539301b90d6)
-- dotData: [Feature Engineering Leakage](https://dotdata.com/blog/preventing-data-leakage-in-feature-engineering-strategies-and-solutions/)
+Each model was trained using walkforward splits on 720 days of hourly data and tested on out-of-sample segments.
 
 ---
 
-For full implementation, see: [daytrading-with-ml GitHub repo](https://github.com/racoope70/daytrading-with-ml)
+## 🔄 Backtesting Setup (QuantConnect)
 
+LightGBM models were trained directly in QuantConnect using `MinMaxScaler`, 8+ technical indicators, and binary labels for next-hour returns. All models were validated using realistic trading simulations and stored using:
+
+```python
+# Save model
+model.booster_.save_model("model_AAPL.txt")
+
+# Save scaler
+joblib.dump(scaler, "scaler_AAPL.pkl")
+
+# Save features
+with open("features_AAPL.txt", "w") as f:
+    f.write(",".join(features))
+```
+
+These files were then downloaded and stored in the `lightgbm/` GitHub directory for reproducibility.
+
+---
+
+## ⚡ Live Paper Trading (Alpaca)
+
+Alpaca’s API is used to execute the model predictions in a live paper trading environment. The script:
+
+- Loads model + scaler from Google Drive
+- Downloads recent 30-day hourly data
+- Computes the same technical features
+- Submits a market buy order if predicted probability > 0.6 and not already holding the stock
+- Skips execution if the market is closed or the signal is weak
+
+```python
+# Pseudocode Logic
+if market_open:
+    if not holding and prob > 0.6:
+        buy()
+    elif holding and prob <= 0.6:
+        sell()
+```
+
+---
+
+## 🔧 Enhancements in Progress
+
+- Execution & Slippage Simulation
+- Noise Filtering (e.g., wavelet transforms, denoising autoencoders)
+- Market Regime Detection (clustering)
+- Latency Simulation & Broker Hooks (Alpaca + Interactive Brokers)
+- Online Learning Support
+- Modular Risk Management Layer (stop-loss, drawdown controls)
+
+---
+
+## 📌 Next Steps
+
+- Finalize paper trading validation for LightGBM top 5 tickers.
+- Extend pipeline to PPO, DQN, SAC, and XGBoost with consistent evaluation.
+- Integrate unified model selector and publish full leaderboard.
+- Continue preparing public release, documentation, and reproducibility.
+
+---
+
+## 🧠 References
+
+- [Alpaca API Docs](https://alpaca.markets/docs/)
+- [QuantConnect Lean](https://www.quantconnect.com/docs/)
+- [LightGBM Docs](https://lightgbm.readthedocs.io/)
+- [Project GitHub Repo](https://github.com/racoope70/daytrading-with-ml)
