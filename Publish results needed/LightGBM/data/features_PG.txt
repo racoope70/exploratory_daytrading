@@ -1,0 +1,1 @@
+SMA_50,EMA_20,RSI_voladj,MACD_voladj,Signal_Line,ATR_voladj,OBV,CCI_voladj
