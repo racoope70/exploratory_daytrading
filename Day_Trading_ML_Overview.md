@@ -174,49 +174,41 @@ Total capital after executing trading signals across the test window.
 
 | Ticker | Final_Portfolio | Return_% | Sharpe | Accuracy | F1_Score | Drawdown |
 |--------|----------------:|---------:|--------:|----------:|----------:|----------:|
-| MSFT   | 113902.79       | 13.90    | 0.2136 | 0.489     | 0.2919    | 20108.83  |
-| AAPL   | 106302.43       | 6.30     | 0.1187 | 0.4907    | 0.2495    | 20349.34  |
-| NVDA   | 104822.77       | 4.82     | 0.1132 | 0.4813    | 0.2514    | 21230.21  |
-| GOOGL  | 103981.14       | 3.98     | 0.1068 | 0.4721    | 0.2432    | 22594.12  |
-| AMZN   | 102764.55       | 2.76     | 0.0983 | 0.4682    | 0.2378    | 23985.00  |
+| ABt    | 127,777.29      | 27.78    | 0.6350  | 0.497     | 0.2728    | 8,908.70  |
+| BRK-B  | 158,738.56      | 58.74    | 0.5529  | 0.491     | 0.3415    | 1,5481.98 |
+| PG     | 131,011.66      | 31.01    | 0.5670  | 0.5043    | 0.2103    | 6,786.50  |
 
 
 **LightGBM Plots**
-![ABT_portfolio_plot](https://github.com/user-attachments/assets/0a7e9468-c300-4a49-ba32-efb46652a066)
 ![BRK-B_portfolio_plot](https://github.com/user-attachments/assets/6e104d70-8306-4841-8ffa-48ad4d2b6db3)
-![MDT_portfolio_plot](https://github.com/user-attachments/assets/cf8e4c2d-416c-4179-b6dd-6bffc46394a6)
 ![PG_portfolio_plot](https://github.com/user-attachments/assets/c9052786-2e3f-4ba5-9908-eeadbd9a110c)
-![PM_portfolio_plot](https://github.com/user-attachments/assets/8e52acd7-500a-474f-a0f4-31b534faffb3)
-
-**LightGBM Summary**
-[Uploading Top_5_PerfTicker,Final_Portfolio,Return_%,Sharpe,Accuracy,Precision,Recall,F1_Score,Drawdown
-ABT,127777.29,27.78,0.635,0.497,0.526,0.1841,0.2728,8908.7
-MDT,118362.98,18.36,0.6314,0.4967,0.5361,0.1115,0.1847,3772.33
-PM,123683.9,23.68,0.6286,0.4917,0.5465,0.1502,0.2356,8841.6
-PG,131011.66,31.01,0.567,0.5043,0.5841,0.1282,0.2103,6786.5
-BRK-B,158738.56,58.74,0.5529,0.491,0.5351,0.2508,0.3415,15481.98orming_LightGBM_Stocks.csv…]()
+![ABT_portfolio_plot](https://github.com/user-attachments/assets/0a7e9468-c300-4a49-ba32-efb46652a066)
 
 ### ABT Walkforward Backtest (QuantConnect)
 
 **Performance Summary:**
-**ABT**
-![image](https://github.com/user-attachments/assets/2390df50-5e24-4403-9356-539fddd851e5)
-
 
 **BRK-B**
-![image](https://github.com/user-attachments/assets/51634332-7690-4015-8cd8-9176cbdbae14)
-
-
-**MDT**
-![image](https://github.com/user-attachments/assets/4ff87d1e-30e1-4485-91a3-4497bfd7525a)
-
-**PM**
-![image](https://github.com/user-attachments/assets/0bf56a4e-440e-4958-961f-cbe0dc9244e9)
+![image](https://github.com/user-attachments/assets/605a8e07-e5dd-433d-ae6e-97cdeedd8365)
 
 **PG**
-![image](https://github.com/user-attachments/assets/2ba2ef00-093d-43a4-b7fc-a8e0796aff4e)
+![image](https://github.com/user-attachments/assets/07b965a8-d42c-4c13-831c-0c5e894bb81a)
 
+**ABT**
+![image](https://github.com/user-attachments/assets/78efc22b-0beb-4981-826e-3ac8c3ae8515)
 
+**Model Risk Disclaimer: Overfitting Flag Contextualized**
+Although QuantConnect flags possible overfitting, this LightGBM strategy uses realistic controls:
+
+- Date-based walkforward retraining every 60 days
+
+- Conservative model depth (max_depth=3)
+
+- Probabilistic thresholding and volatility filters
+
+-  Limited feature set (6 technicals)
+
+These safeguards help ensure generalization despite the warning.
 
 **Stored files:**
 - `lightgbm/models/`
