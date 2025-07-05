@@ -134,11 +134,24 @@ Explore individual models or strategies inside `notebooks/`, e.g., PPO walkforwa
 **Portfolio Growth (Example: AAPL + PPO)**  
 ![Portfolio Growth](results/plots/aapl_ppo_portfolio.png)
 
-**Confusion Matrix**  
-Illustrates prediction performance on directional signals across walkforward splits.
+Sharpe Ratio Distribution per Model
+![image](https://github.com/user-attachments/assets/ff63c961-c454-468f-909c-79abd30e6743)
 
-**Signal Overlay Plot**  
-Shows buy/sell signal placement on price chart, aligned with true and predicted labels.
+Top 5 and Bottom 5 Models by Average Score
+![image](https://github.com/user-attachments/assets/e169f466-254a-4074-bbe5-b34689d8ed85)
+
+Buy/Sell Signal Overlay on Price Chart
+![image](https://github.com/user-attachments/assets/5648e09e-8ee9-4b37-8cd0-26ca99173ec1)
+
+MSFT Price with Autoencoder Anomalies
+![43fa4d32-ecb2-43aa-8998-dc06314b201e](https://github.com/user-attachments/assets/1dd9060c-aa5b-4c28-ad4d-d3bdba7e0a26)
+
+AAPL Price with Autoencoder Anomalies
+![da11a34a-f58f-4e4b-a955-d90bb0d6d5f5](https://github.com/user-attachments/assets/589c6422-8fac-4798-ae16-48202c232d29)
+
+TSLA Price with Autoencoder Anomalies
+![64b4dec4-f24c-4868-8e57-e91c55c195e9](https://github.com/user-attachments/assets/8463ecbc-f12d-4306-ac0f-604caefb616f)
+
 
 ---
 
