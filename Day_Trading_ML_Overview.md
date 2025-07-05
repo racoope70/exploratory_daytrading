@@ -152,20 +152,39 @@ TSLA Price with Autoencoder Anomalies
 
 ## Model Performance  
 
-**Training Accuracy (Example: XGBoost ~87%)**  
-Model correctly learned patterns on in-sample data.
+**Training Accuracy (~85–89%)**  
+Based on LightGBM in-sample performance across rolling windows.
 
-**Test Accuracy (Walkforward Windows ~74–83%)**  
-Out-of-sample accuracy for directional signals.
+**Test Accuracy (Walkforward ~47–50%)**  
+Out-of-sample validation using true date-based walkforward.
 
-**Sharpe Ratio (~1.2 - 2.5)**  
-Reflects risk-adjusted return based on hourly returns.
+**Sharpe Ratio (~0.55 – 0.64)**  
+QuantConnect hourly tests show realistic, moderate returns.
 
-**Max Drawdown (~8-15%)**  
-Measures the largest equity dip during the evaluation.
+**Max Drawdown (~3.7% – 15.5%)**  
+Controlled with stop-loss, volatility filters, and position sizing.
 
-**Final Portfolio Value**  
-Total capital after executing trading signals across the test window.
+**Final Portfolio Return (+20% to +58%)**  
+Year-long backtests: BRK‑B (+58.7%), PG (+31%), ABT (+27.8%).
+
+## Additional Models (Preliminary Results)
+
+These models are currently being tested—results below are **early estimates**, pending full backtesting.
+
+- **XGBoost**  
+  - Training Accuracy: ~86–88%  
+  - Preliminary Sharpe: ~0.50–0.60
+
+- **Random Forest**  
+  - Training Accuracy: ~80–85%  
+  - Expected Sharpe: ~0.45–0.55
+
+- **Reinforcement Learning (PPO, SAC, TD3, A2C, DQN, Deep SARSA)**  
+  - Preliminary results pending; initial runs suggest **variable Sharpe (~0.3–0.6)** and high volatility.
+
+- **K‑Means Clustering**  
+  - Used for regime detection; early signal analysis suggests moderate predictive value, but full integration still underway.
+
 
 **Backtest Summary by Model**
 ## Completed Model Backtests
