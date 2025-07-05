@@ -1,4 +1,4 @@
-# Algorithmic Trading with Machine Learning (WIP)
+[Top_5_Performing_LightGBM_Stocks.csv](https://github.com/user-attachments/files/21070458/Top_5_Performing_LightGBM_Stocks.csv)# Algorithmic Trading with Machine Learning (WIP)
 
 **Table of Contents**  
 1. [Overview](#overview)  
@@ -181,6 +181,23 @@ Total capital after executing trading signals across the test window.
 | NVDA   | 104822.77       | 4.82     | 0.1132 | 0.4813    | 0.2514    | 21230.21  |
 | GOOGL  | 103981.14       | 3.98     | 0.1068 | 0.4721    | 0.2432    | 22594.12  |
 | AMZN   | 102764.55       | 2.76     | 0.0983 | 0.4682    | 0.2378    | 23985.00  |
+
+
+**LightGBM Plots**
+![ABT_portfolio_plot](https://github.com/user-attachments/assets/0a7e9468-c300-4a49-ba32-efb46652a066)
+![BRK-B_portfolio_plot](https://github.com/user-attachments/assets/6e104d70-8306-4841-8ffa-48ad4d2b6db3)
+![MDT_portfolio_plot](https://github.com/user-attachments/assets/cf8e4c2d-416c-4179-b6dd-6bffc46394a6)
+![PG_portfolio_plot](https://github.com/user-attachments/assets/c9052786-2e3f-4ba5-9908-eeadbd9a110c)
+![PM_portfolio_plot](https://github.com/user-attachments/assets/8e52acd7-500a-474f-a0f4-31b534faffb3)
+
+**LightGBM Summary**
+[Uploading Top_5_PerfTicker,Final_Portfolio,Return_%,Sharpe,Accuracy,Precision,Recall,F1_Score,Drawdown
+ABT,127777.29,27.78,0.635,0.497,0.526,0.1841,0.2728,8908.7
+MDT,118362.98,18.36,0.6314,0.4967,0.5361,0.1115,0.1847,3772.33
+PM,123683.9,23.68,0.6286,0.4917,0.5465,0.1502,0.2356,8841.6
+PG,131011.66,31.01,0.567,0.5043,0.5841,0.1282,0.2103,6786.5
+BRK-B,158738.56,58.74,0.5529,0.491,0.5351,0.2508,0.3415,15481.98orming_LightGBM_Stocks.csv…]()
+
 
 **Stored files:**
 - `lightgbm/models/`
