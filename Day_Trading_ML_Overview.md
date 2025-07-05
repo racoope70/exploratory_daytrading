@@ -201,7 +201,24 @@ BRK-B,158738.56,58.74,0.5529,0.491,0.5351,0.2508,0.3415,15481.98orming_LightGBM_
 ### ABT Walkforward Backtest (QuantConnect)
 
 **Performance Summary:**
+**ABT**
 ![image](https://github.com/user-attachments/assets/2390df50-5e24-4403-9356-539fddd851e5)
+
+
+**BRK-B**
+![image](https://github.com/user-attachments/assets/51634332-7690-4015-8cd8-9176cbdbae14)
+
+
+**MDT**
+![image](https://github.com/user-attachments/assets/4ff87d1e-30e1-4485-91a3-4497bfd7525a)
+
+**PM**
+![image](https://github.com/user-attachments/assets/0bf56a4e-440e-4958-961f-cbe0dc9244e9)
+
+**PG**
+![image](https://github.com/user-attachments/assets/2ba2ef00-093d-43a4-b7fc-a8e0796aff4e)
+
+
 
 **Stored files:**
 - `lightgbm/models/`
