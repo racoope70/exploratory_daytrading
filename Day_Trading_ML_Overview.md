@@ -198,6 +198,10 @@ PM,123683.9,23.68,0.6286,0.4917,0.5465,0.1502,0.2356,8841.6
 PG,131011.66,31.01,0.567,0.5043,0.5841,0.1282,0.2103,6786.5
 BRK-B,158738.56,58.74,0.5529,0.491,0.5351,0.2508,0.3415,15481.98orming_LightGBM_Stocks.csv…]()
 
+### ABT Walkforward Backtest (QuantConnect)
+
+**Performance Summary:**
+![image](https://github.com/user-attachments/assets/2390df50-5e24-4403-9356-539fddd851e5)
 
 **Stored files:**
 - `lightgbm/models/`
