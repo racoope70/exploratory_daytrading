@@ -1,5 +1,3 @@
-[Top_5_Performing_LightGBM_Stocks.csv](https://github.com/user-attachments/files/21070458/Top_5_Performing_LightGBM_Stocks.csv)# Algorithmic Trading with Machine Learning (WIP)
-
 **Table of Contents**  
 1. [Overview](#overview)  
 2. [Features](#features)  
