@@ -169,6 +169,30 @@ Measures the largest equity dip during the evaluation.
 **Final Portfolio Value**  
 Total capital after executing trading signals across the test window.
 
+**Backtest Summary by Model**
+## Completed Model Backtests
+
+### ✅ LightGBM Walkforward Results
+
+| Ticker | Final_Portfolio | Return_% | Sharpe | Accuracy | F1_Score | Drawdown |
+|--------|----------------:|---------:|--------:|----------:|----------:|----------:|
+| MSFT   | 113902.79       | 13.90    | 0.2136 | 0.489     | 0.2919    | 20108.83  |
+| AAPL   | 106302.43       | 6.30     | 0.1187 | 0.4907    | 0.2495    | 20349.34  |
+| NVDA   | 104822.77       | 4.82     | 0.1132 | 0.4813    | 0.2514    | 21230.21  |
+| GOOGL  | 103981.14       | 3.98     | 0.1068 | 0.4721    | 0.2432    | 22594.12  |
+| AMZN   | 102764.55       | 2.76     | 0.0983 | 0.4682    | 0.2378    | 23985.00  |
+
+**Stored files:**
+- `lightgbm/models/`
+- `lightgbm/scalers/`
+- `lightgbm/features/`
+- `lightgbm/metrics/lightgbm_walkforward_summary.csv`
+- `lightgbm/plots/`
+
+**Backtest Method:**  
+Walkforward on 720-day hourly data using QuantConnect-compatible LightGBM with `MinMaxScaler`, technical features, and binary targets.
+
+
 ---
 
 ## Real-World Potential & Tangible Benefits  
