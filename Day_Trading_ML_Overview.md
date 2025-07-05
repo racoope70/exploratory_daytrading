@@ -131,9 +131,6 @@ Explore individual models or strategies inside `notebooks/`, e.g., PPO walkforwa
 
 ## Visualizations & Results  
 
-**Portfolio Growth (Example: AAPL + PPO)**  
-![Portfolio Growth](results/plots/aapl_ppo_portfolio.png)
-
 Sharpe Ratio Distribution per Model
 ![image](https://github.com/user-attachments/assets/ff63c961-c454-468f-909c-79abd30e6743)
 
