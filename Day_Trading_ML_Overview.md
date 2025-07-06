@@ -18,7 +18,7 @@ This project explores the use of **machine learning**, **reinforcement learning*
 
 The pipeline supports data download, feature engineering, multi-window walkforward validation, model saving, and performance visualization across 50+ tickers.
 
-> ⚠️ **Work in Progress**: This repository is under active development and continues to be updated with additional models, cleaner integration, and improved signal logic.
+> **Work in Progress**: This repository is under active development and continues to be updated with additional models, cleaner integration, and improved signal logic.
 
 ---
 
@@ -189,7 +189,7 @@ These models are currently being tested—results below are **early estimates**,
 **Backtest Summary by Model**
 ## Completed Model Backtests
 
-### ✅ LightGBM Walkforward Results
+### LightGBM Walkforward Results
 
 | Ticker | Final_Portfolio | Return_% | Sharpe | Accuracy | F1_Score | Drawdown |
 |--------|----------------:|---------:|--------:|----------:|----------:|----------:|
