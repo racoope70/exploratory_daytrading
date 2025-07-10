@@ -1,0 +1,9 @@
+Params,Accuracy,F1_Score,Sharpe,Train_Start,Test_Start,Ticker
+"{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 100}",0.2,0.175,0.756,2024-04-03,2025-04-03,HD
+"{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 200}",0.2393,0.1987,0.876,2024-04-03,2025-04-03,HD
+"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100}",0.3821,0.2796,0.682,2024-04-03,2025-04-03,HD
+"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 200}",0.3607,0.2676,1.001,2024-04-03,2025-04-03,HD
+"{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100}",0.2464,0.1803,1.016,2024-04-03,2025-04-03,HD
+"{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 200}",0.4179,0.2615,1.272,2024-04-03,2025-04-03,HD
+"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 100}",0.4429,0.2833,1.327,2024-04-03,2025-04-03,HD
+"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 200}",0.5571,0.2903,1.442,2024-04-03,2025-04-03,HD

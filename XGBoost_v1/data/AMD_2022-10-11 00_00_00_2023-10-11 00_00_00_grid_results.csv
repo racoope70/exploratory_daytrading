@@ -1,0 +1,9 @@
+Params,Accuracy,F1_Score,Sharpe,Train_Start,Test_Start,Ticker
+"{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 100}",0.3483,0.2593,0.592,2022-10-11,2023-10-11,AMD
+"{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 200}",0.3345,0.2575,0.741,2022-10-11,2023-10-11,AMD
+"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100}",0.3069,0.256,0.78,2022-10-11,2023-10-11,AMD
+"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 200}",0.3,0.261,0.942,2022-10-11,2023-10-11,AMD
+"{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100}",0.2862,0.2349,0.89,2022-10-11,2023-10-11,AMD
+"{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 200}",0.2862,0.2437,1.103,2022-10-11,2023-10-11,AMD
+"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 100}",0.2897,0.2481,1.172,2022-10-11,2023-10-11,AMD
+"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 200}",0.3207,0.2913,1.354,2022-10-11,2023-10-11,AMD
