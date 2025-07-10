@@ -189,13 +189,14 @@ These models are currently being tested—results below are **early estimates**,
 **Backtest Summary by Model**
 ## Completed Model Backtests v1
 
-### LightGBM Walkforward Results
+### LightGBM Walkforward Results Metrics (Pre-Backtest, Google Colab)
 
-| Ticker | Final_Portfolio | Return_% | Sharpe | Accuracy | F1_Score | Drawdown |
+
+| Ticker | Final_Portfolio | Return_% | Sharpe | Accuracy | F1_Score    | Drawdown  |
 |--------|----------------:|---------:|--------:|----------:|----------:|----------:|
-| ABt    | 127,777.29      | 27.78    | 0.6350  | 0.497     | 0.2728    | 8,908.70  |
-| BRK-B  | 158,738.56      | 58.74    | 0.5529  | 0.491     | 0.3415    | 1,5481.98 |
-| PG     | 131,011.66      | 31.01    | 0.5670  | 0.5043    | 0.2103    | 6,786.50  |
+| ABt    | 127,777.29      | 27.78    | 0.6350  | 0.497     | 0.2728    |  8.91%    |
+| BRK-B  | 158,738.56      | 58.74    | 0.5529  | 0.491     | 0.3415    | 15.48%    |
+| PG     | 131,011.66      | 31.01    | 0.5670  | 0.5043    | 0.2103    |  6.79%    |
 
 
 **LightGBM Plots**
@@ -240,14 +241,17 @@ These safeguards help ensure generalization despite the warning.
 Walkforward on 720-day hourly data using QuantConnect-compatible LightGBM with `MinMaxScaler`, technical features, and binary targets.
 
 
-### XGBoost Walkforward Results
+### XGBoost Walkforward Results Metrics (Pre-Backtest, Google Colab)
+
 
 | Ticker | Final_Portfolio | Return_% | Sharpe | Accuracy | F1_Score | Drawdown |
 |--------|----------------:|---------:|--------:|----------:|----------:|----------:|
-| AVGO   | 127,777.29      | 27.78    | 0.6350  | 0.497     | 0.2728    | 8,908.70  |
-| AMD    | 158,738.56      | 58.74    | 0.5529  | 0.491     | 0.3415    | 1,5481.98 |
-| GE     | 131,011.66      | 31.01    | 0.5670  | 0.5043    | 0.2103    | 6,786.50  |
+| AVGO   | 113,014.20      | 13.01    | 1.877   | .1607     | .1644     | 2.70%     |
+| AMD    | 108,788.84      |  8.79    | 1.146   | .2821     | .2784     | 3.86%     |
+| GE     | 106,031.36      |  6.03    | 1.930   | .3071     | .2846     | 1.56%     |
 
+
+**XGBoost Plots**
 
 ---
 
