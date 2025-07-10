@@ -1,9 +1,0 @@
-Params,Accuracy,F1_Score,Sharpe,Train_Start,Test_Start,Ticker
-"{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 100}",0.3534,0.254,0.435,2023-10-06,2024-10-05,AVGO
-"{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 200}",0.3852,0.3219,0.817,2023-10-06,2024-10-05,AVGO
-"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100}",0.3428,0.2763,0.469,2023-10-06,2024-10-05,AVGO
-"{'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 200}",0.3852,0.3219,0.65,2023-10-06,2024-10-05,AVGO
-"{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100}",0.4311,0.3802,0.886,2023-10-06,2024-10-05,AVGO
-"{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 200}",0.4276,0.3434,0.874,2023-10-06,2024-10-05,AVGO
-"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 100}",0.4099,0.3244,0.942,2023-10-06,2024-10-05,AVGO
-"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 200}",0.4558,0.345,1.111,2023-10-06,2024-10-05,AVGO
