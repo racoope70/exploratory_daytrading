@@ -236,9 +236,11 @@ Walkforward on 720-day hourly data using QuantConnect-compatible LightGBM with `
 
 | Ticker | Final_Portfolio | Return_% | Sharpe | Accuracy | F1_Score | Drawdown |
 |--------|----------------:|---------:|--------:|----------:|----------:|----------:|
-| AVGO   | 113,014.20      | 13.01    | 1.877   | .1607     | .1644     | 2.70%     |
-| AMD    | 108,788.84      |  8.79    | 1.146   | .2821     | .2784     | 3.86%     |
+| AVGO   | 114,043.68      | 14.04    | 1.916   | .1429     | .1451     | 2.81%     |
+| AMD    | 108,788.84     |  8.79    | 1.146   | .2821     | .2784     | 3.86%     |
 | HD     | 1037,11.63      |  3.71    | 1.135   | .3555    | .2362     | 1.97%     |
+
+
 
 ### ABT Walkforward Backtest (QuantConnect)
 
@@ -266,7 +268,7 @@ While QuantConnect flags ‘Likely Overfitting’ due to parameter count, this s
 - `XGBoost/models/`
 - `XGBoost/scalers/`
 - `XGBoost/features/`
-- `XGBoost/metrics/XGBoost_walkforward_summary.csv`
+- `XGBoost/metrics/xgb_best_models_by_score.xlsx`
 
 ### 📦 Model Artifacts
 
