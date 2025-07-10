@@ -250,8 +250,15 @@ Walkforward on 720-day hourly data using QuantConnect-compatible LightGBM with `
 | AMD    | 108,788.84      |  8.79    | 1.146   | .2821     | .2784     | 3.86%     |
 | GE     | 106,031.36      |  6.03    | 1.930   | .3071     | .2846     | 1.56%     |
 
+### ABT Walkforward Backtest (QuantConnect)
 
-**XGBoost Plots**
+**Performance Summary:**
+
+**AVGO**
+
+
+**AMD**
+
 
 ---
 
