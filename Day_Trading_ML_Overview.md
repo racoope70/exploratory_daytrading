@@ -218,17 +218,7 @@ These models are currently being tested—results below are **early estimates**,
 ![image](https://github.com/user-attachments/assets/78efc22b-0beb-4981-826e-3ac8c3ae8515)
 
 **Model Risk Disclaimer: Overfitting Flag Contextualized**
-Although QuantConnect flags possible overfitting, this LightGBM strategy uses realistic controls:
-
-- Date-based walkforward retraining every 60 days
-
-- Conservative model depth (max_depth=3)
-
-- Probabilistic thresholding and volatility filters
-
--  Limited feature set (6 technicals)
-
-These safeguards help ensure generalization despite the warning.
+While QuantConnect flags ‘Likely Overfitting’ due to parameter count, this strategy is walkforward-validated, uses simple interpretable features, and applies volatility and probability filters. Real-world constraints (slippage, trade cooldowns) are simulated to reinforce generalization.
 
 **Stored files:**
 - `lightgbm/models/`
@@ -255,11 +245,28 @@ Walkforward on 720-day hourly data using QuantConnect-compatible LightGBM with `
 **Performance Summary:**
 
 **AVGO**
+<img width="1746" height="1046" alt="image" src="https://github.com/user-attachments/assets/0f321ff7-d8bd-4964-ab00-5895cfa48cc9" />
+
+<img width="1746" height="1046" alt="image" src="https://github.com/user-attachments/assets/16fc7772-29b5-4195-ac2e-4cc5262dccc3" />
 
 
 **AMD**
+<img width="1082" height="520" alt="Screenshot 2025-07-10 at 1 55 35 PM" src="https://github.com/user-attachments/assets/facb185c-8055-4c91-97c7-e19a975e6e99" />
 
+<img width="873" height="334" alt="Screenshot 2025-07-10 at 2 02 13 PM" src="https://github.com/user-attachments/assets/5c20cb0e-06c5-46cb-9c72-a9d514ba70a4" />
 
+**HD**
+<img width="2186" height="1016" alt="image" src="https://github.com/user-attachments/assets/e250e903-b5c2-4fd9-a1da-1d46f5992fd1" />
+<img width="2186" height="1016" alt="image" src="https://github.com/user-attachments/assets/4111baa5-6f10-4ef8-ba17-ff9b4a3d83d1" />
+
+**Model Risk Disclaimer: Overfitting Flag Contextualized**
+While QuantConnect flags ‘Likely Overfitting’ due to parameter count, this strategy is walkforward-validated, uses simple interpretable features, and applies volatility and probability filters. Real-world constraints (slippage, trade cooldowns) are simulated to reinforce generalization.
+
+**Stored files:**
+- `XGBoost/models/`
+- `XGBoost/scalers/`
+- `XGBoost/features/`
+- `XGBoost/metrics/XGBoost_walkforward_summary.csv`
 ---
 
 ## Real-World Potential & Tangible Benefits  
