@@ -238,7 +238,7 @@ Walkforward on 720-day hourly data using QuantConnect-compatible LightGBM with `
 |--------|----------------:|---------:|--------:|----------:|----------:|----------:|
 | AVGO   | 113,014.20      | 13.01    | 1.877   | .1607     | .1644     | 2.70%     |
 | AMD    | 108,788.84      |  8.79    | 1.146   | .2821     | .2784     | 3.86%     |
-| GE     | 106,031.36      |  6.03    | 1.930   | .3071     | .2846     | 1.56%     |
+| HD     | 1037,11.63      |  3.71    | 1.135   | .3555    | .2362     | 1.97%     |
 
 ### ABT Walkforward Backtest (QuantConnect)
 
@@ -267,6 +267,19 @@ While QuantConnect flags ‘Likely Overfitting’ due to parameter count, this s
 - `XGBoost/scalers/`
 - `XGBoost/features/`
 - `XGBoost/metrics/XGBoost_walkforward_summary.csv`
+
+### 📦 Model Artifacts
+
+Due to GitHub file size constraints, I only publishing model artifacts (trained XGBoost models, feature JSONs, and result CSVs) for the **top 3 performing stocks** in the walkforward evaluation.
+
+Full results for all 53 tickers were computed and saved locally in Google Drive. These include:
+- Walkforward metrics (Sharpe, Return, Drawdown, F1)
+- SHAP plots
+- Trade signals
+- Final portfolios
+
+If you would like access to the full dataset or models, please contact the author.
+
 ---
 
 ## Real-World Potential & Tangible Benefits  
