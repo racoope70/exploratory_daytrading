@@ -1,4 +1,3 @@
-<img width="2148" height="994" alt="image" src="https://github.com/user-attachments/assets/6c337423-6da4-4989-9a28-7f9d7140685b" />**Table of Contents**  
 1. [Overview](#overview)  
 2. [Features](#features)  
 3. [Installation](#installation)  
