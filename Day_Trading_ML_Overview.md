@@ -1,4 +1,4 @@
-**Table of Contents**  
+<img width="2148" height="994" alt="image" src="https://github.com/user-attachments/assets/6c337423-6da4-4989-9a28-7f9d7140685b" />**Table of Contents**  
 1. [Overview](#overview)  
 2. [Features](#features)  
 3. [Installation](#installation)  
@@ -255,6 +255,7 @@ Walkforward on 720-day hourly data using QuantConnect-compatible LightGBM with `
 
 <img width="1744" height="1092" alt="image" src="https://github.com/user-attachments/assets/5d7d359c-4e15-4e1e-a2de-efb3ed4587e3" />
 
+---
 
 
 **AMD**
@@ -264,6 +265,7 @@ Walkforward on 720-day hourly data using QuantConnect-compatible LightGBM with `
 
 <img width="1748" height="1094" alt="image" src="https://github.com/user-attachments/assets/a87a09d5-a692-4222-b097-ea9cb529fbaa" />
 
+---
 
 **HD**
 <img width="2156" height="1040" alt="image" src="https://github.com/user-attachments/assets/99778eb5-7a83-4ef4-ae6b-ad28fd79fb88" />
@@ -272,6 +274,7 @@ Walkforward on 720-day hourly data using QuantConnect-compatible LightGBM with `
 
 <img width="1738" height="1094" alt="image" src="https://github.com/user-attachments/assets/d4d91149-8c56-4853-bfad-1f27d7032382" />
 
+---
 
 
 **Model Risk Disclaimer: Overfitting Flag Contextualized**
