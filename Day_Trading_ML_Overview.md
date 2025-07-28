@@ -150,6 +150,8 @@ TSLA Price with Autoencoder Anomalies
 ---
 
 ## Model Performance  
+**Initial Baseline Results (Pre-Enhancement)**:
+Models were originally tested without execution modeling, slippage, regime detection, or noise filtering. These early results served as a performance baseline.
 
 **Training Accuracy (~85–89%)**  
 Based on LightGBM in-sample performance across rolling windows.
@@ -187,6 +189,7 @@ These models are currently being tested—results below are **early estimates**,
 
 **Backtest Summary by Model**
 ## Completed Model Backtests v1
+**Only LIghtBM and XGBoost was backtested. Enhancements where made to all other models after the testing. Thus, XGBoost and LightGBM will be re-tested with the full enhancement stack to enable fair comparison against improved PPO, SAC, and TD3 models.
 
 ### LightGBM Walkforward Results Metrics (Pre-Backtest, Google Colab)
 
@@ -284,6 +287,11 @@ While QuantConnect flags ‘Likely Overfitting’ due to parameter count, this s
 - `XGBoost/scalers/`
 - `XGBoost/features/`
 - `XGBoost/metrics/xgb_best_models_by_score.xlsx`
+
+**Enhancement Phase**:
+A full risk-aware trading framework was then integrated across all models, including Execution & Slippage Simulation, Online Learning, Noise Filtering, Market Regime Detection, Broker Latency Simulation, and Risk Management.
+
+XGBoost and LightGBM will be re-tested with the full enhancement stack to enable fair comparison against improved PPO, SAC, and TD3 models.
 
 ### 📦 Model Artifacts
 
