@@ -290,8 +290,7 @@ Walkforward on 720-day hourly data using QuantConnect-compatible LightGBM with `
 
 ---
 
-**Model Risk Disclaimer: Overfitting Flag Contextualized**
-While QuantConnect flags ‘Likely Overfitting’ due to parameter count, this strategy is walkforward-validated, uses simple interpretable features, and applies volatility and probability filters. Real-world constraints (slippage, trade cooldowns) are simulated to reinforce generalization.
+**(See Model Risk Disclaimer above)**
 
 **Stored files:**
 - `XGBoost/models/`
