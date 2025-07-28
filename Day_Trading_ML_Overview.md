@@ -61,38 +61,48 @@ Ensure Python 3.8+ is installed. GPU recommended for reinforcement learning trai
 
 ```
 daytrading-with-ml/
-|
-├── data/                          # Local storage (optional)
-├── download/                      # Data download scripts (yfinance)
+├── data/                          
+├── download/                      
 │   ├── download_hourly_data.py
-|
-├── features/                      # Technical indicators & custom features
+├── features/                      
 │   ├── feature_engineering.py
 │   ├── calculate_rsi.py
 │   ├── generate_trade_labels.py
-|
-├── models/                        # Model wrappers and helpers
+├── enhancements/                 
+│   ├── add_sentiment_scores.py
+│   ├── detect_market_regime.py
+│   ├── apply_denoising.py
+├── models/                        
 │   ├── xgboost_model.py
 │   ├── lightgbm_model.py
-│   ├── rl_envs/                   # Custom RL environments
-|
-├── walkforward/                   # Walkforward scripts
+│   ├── rl_models/
+│   ├── rl_envs/
+├── walkforward/                   
 │   ├── train_xgboost_walkforward.py
+│   ├── train_lightgbm_walkforward.py
+│   ├── train_rf_walkforward.py
 │   ├── train_ppo_walkforward.py
 │   ├── train_td3_walkforward.py
-|
-├── notebooks/                     # EDA and prototyping
-│   ├── anomaly_detection_visuals.ipynb
-│   ├── portfolio_comparison.ipynb
-|
-├── results/                       # Saved plots, metrics, and models
+│   ├── train_sac_walkforward.py
+│   ├── train_dqn_walkforward.py
+│   ├── train_a2c_walkforward.py
+│   ├── train_deep_sarsa_walkforward.py
+│   ├── train_kmeans_inference.py
+├── live/
+│   ├── ppo_live_trading_alpaca.py
+│   ├── lightgbm_live_trade.py
+├── utils/                         
+│   ├── plot_portfolio.py
+│   ├── calculate_metrics.py
+├── notebooks/                    
+├── results/                       
 │   ├── metrics/
 │   ├── plots/
 │   ├── models/
-|
-├── requirements.txt               # Dependency list
-├── LICENSE                        # License file
-├── README.md                      # Project documentation (this file)
+├── requirements.txt               
+├── LICENSE                        
+├── README.md
+
 ```
 
 ---
@@ -117,6 +127,7 @@ Explore individual models or strategies inside `notebooks/`, e.g., PPO walkforwa
 3. **Train Models**
    ```bash
    python walkforward/train_xgboost_walkforward.py
+   --test_mode flag or set test_mode=True in config for lightweight testing.
    ```
 
 4. **Visualize Results**
@@ -186,10 +197,11 @@ These models are currently being tested—results below are **early estimates**,
 - **K‑Means Clustering**  
   - Used for regime detection; early signal analysis suggests moderate predictive value, but full integration still underway.
 
+**Back Testing**: 
+Only XGBoost and LightGBM were backtested under the initial setup. All other models (e.g., PPO, SAC, TD3) were evaluated after enhancements were added.
 
 **Backtest Summary by Model**
-## Completed Model Backtests v1
-**Only LIghtBM and XGBoost was backtested. Enhancements where made to all other models after the testing. Thus, XGBoost and LightGBM will be re-tested with the full enhancement stack to enable fair comparison against improved PPO, SAC, and TD3 models.
+## Baseline Backtests (XGBoost + LightGBM Only)
 
 ### LightGBM Walkforward Results Metrics (Pre-Backtest, Google Colab)
 
@@ -278,7 +290,6 @@ Walkforward on 720-day hourly data using QuantConnect-compatible LightGBM with `
 
 ---
 
-
 **Model Risk Disclaimer: Overfitting Flag Contextualized**
 While QuantConnect flags ‘Likely Overfitting’ due to parameter count, this strategy is walkforward-validated, uses simple interpretable features, and applies volatility and probability filters. Real-world constraints (slippage, trade cooldowns) are simulated to reinforce generalization.
 
@@ -288,10 +299,18 @@ While QuantConnect flags ‘Likely Overfitting’ due to parameter count, this s
 - `XGBoost/features/`
 - `XGBoost/metrics/xgb_best_models_by_score.xlsx`
 
-**Enhancement Phase**:
-A full risk-aware trading framework was then integrated across all models, including Execution & Slippage Simulation, Online Learning, Noise Filtering, Market Regime Detection, Broker Latency Simulation, and Risk Management.
+**Enhancement Phase: Risk-Aware Trading Framework**:
+After baseline backtesting, a complete enhancement phase was initiated across all models.  
+This included:
+1. **Execution & Slippage Simulation**  
+2. **Live Updating / Online Learning**  
+3. **Noise Filtering**  
+4. **Market Regime Detection**  
+5. **Broker Latency Simulation**  
+6. **Risk Management Module**
 
-XGBoost and LightGBM will be re-tested with the full enhancement stack to enable fair comparison against improved PPO, SAC, and TD3 models.
+LightGBM and XGBoost will now be re-tested using this full stack to ensure a fair performance comparison with enhanced PPO, SAC, and TD3 models.
+
 
 ### 📦 Model Artifacts
 
