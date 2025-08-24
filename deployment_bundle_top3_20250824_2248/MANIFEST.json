@@ -1,0 +1,47 @@
+{
+  "created_at": "20250824_2248",
+  "bundle_dir": "/content/drive/MyDrive/Results_May_2025/deployment_bundle_top3_20250824_2248",
+  "prefixes": [
+    "ppo_GE_window1",
+    "ppo_UNH_window3",
+    "ppo_CVX_window1"
+  ],
+  "files_per_prefix": {
+    "ppo_GE_window1": [
+      "ppo_GE_window1_model.zip",
+      "ppo_GE_window1_vecnorm.pkl",
+      "ppo_GE_window1_features.json",
+      "ppo_GE_window1_probability_config.json",
+      "ppo_GE_window1_model_info.json"
+    ],
+    "ppo_UNH_window3": [
+      "ppo_UNH_window3_model.zip",
+      "ppo_UNH_window3_vecnorm.pkl",
+      "ppo_UNH_window3_features.json",
+      "ppo_UNH_window3_probability_config.json",
+      "ppo_UNH_window3_model_info.json"
+    ],
+    "ppo_CVX_window1": [
+      "ppo_CVX_window1_model.zip",
+      "ppo_CVX_window1_vecnorm.pkl",
+      "ppo_CVX_window1_features.json",
+      "ppo_CVX_window1_probability_config.json",
+      "ppo_CVX_window1_model_info.json"
+    ]
+  },
+  "missing": {
+    "ppo_CVX_window1": [
+      "ppo_CVX_window1_features.json",
+      "ppo_CVX_window1_probability_config.json",
+      "ppo_CVX_window1_model_info.json"
+    ]
+  },
+  "paths": {
+    "models_dir": "/content/drive/MyDrive/Results_May_2025/deployment_bundle_top3_20250824_2248/ppo_models_master",
+    "code_dir": "/content/drive/MyDrive/Results_May_2025/deployment_bundle_top3_20250824_2248/code",
+    "requirements": "/content/drive/MyDrive/Results_May_2025/deployment_bundle_top3_20250824_2248/requirements.txt",
+    "readme": "/content/drive/MyDrive/Results_May_2025/deployment_bundle_top3_20250824_2248/README_QC_Alpaca.txt",
+    "top3_table": "/content/drive/MyDrive/Results_May_2025/deployment_bundle_top3_20250824_2248/quick_recommendations_top3.csv",
+    "summary_all": "/content/drive/MyDrive/Results_May_2025/deployment_bundle_top3_20250824_2248/all_runs_summary.csv"
+  }
+}
