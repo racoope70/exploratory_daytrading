@@ -315,7 +315,7 @@ This included:
 LightGBM and XGBoost will now be re-tested using this full stack to ensure a fair performance comparison with enhanced PPO, SAC, and TD3 models.
 
 
-### 📦 Model Artifacts
+###  Model Artifacts
 
 Due to GitHub file size constraints, I only publishing model artifacts (trained XGBoost models, feature JSONs, and result CSVs) for the **top 3 performing stocks** in the walkforward evaluation.
 
