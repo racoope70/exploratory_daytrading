@@ -1,4 +1,4 @@
-> ⚠️ **Status: Exploratory / Archived**
+> **Status: Exploratory / Archived**
 > This document summarizes exploratory experiments and legacy results. Some metrics/plots are outdated and retained for provenance only.
 > **For deployment-ready models, code, and current results, see:** quant-trading-model-zoo (https://github.com/yourname/quant-trading-model-zoo).
 
