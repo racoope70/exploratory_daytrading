@@ -1,5 +1,0 @@
-torch==2.8.0+cu126
-stable-baselines3==2.7.0
-gymnasium==1.2.0
-numpy==2.0.2
-pandas==2.2.2

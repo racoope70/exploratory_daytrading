@@ -1,1 +1,0 @@
-{"features": ["Datetime", "Adj Close", "Close", "High", "Low", "Open", "Volume", "SMA_20", "STD_20", "Upper_Band", "Lower_Band", "Lowest_Low", "Highest_High", "Stoch", "ROC", "OBV", "CCI", "EMA_10", "EMA_50", "MACD_Line", "MACD_Signal", "RSI", "ATR", "Volatility", "Denoised_Close", "Vol20", "Ret20", "Regime4", "SentimentScore", "Delta", "Gamma", "Target", "Return", "Symbol"]}
