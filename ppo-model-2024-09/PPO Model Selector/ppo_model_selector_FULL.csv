@@ -1,0 +1,44 @@
+Ticker,Window,Final_Portfolio,BuyHold,Sharpe,Drawdown,Winner,RunFolder,Accuracy,Model
+AAPL,1000-4500,146009.94,111421.36,0.463,12.67,PPO,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251019_2310,0.0,PPO
+ABBV,1000-4500,116448.89,139058.22,0.467,6.78,Buy & Hold,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_2016,0.0,PPO
+ABT,0-3500,109998.82,104755.03,0.489,3.6,PPO,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_1350,0.0,PPO
+ACN,1000-4500,123742.81,95279.41,0.5,5.77,PPO,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_1350,0.0,PPO
+ADBE,500-4000,191042.16,102300.16,0.573,22.45,PPO,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_1350,0.0,PPO
+AMD,0-3500,113453.57,206425.2,0.283,7.93,Buy & Hold,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_1350,0.0,PPO
+AMGN,500-4000,112920.0,130073.87,0.392,5.88,Buy & Hold,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_1350,0.0,PPO
+AVGO,1000-4500,156949.01,307321.96,0.428,26.93,Buy & Hold,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_1350,0.0,PPO
+BAC,500-4000,102972.77,149016.17,0.35,1.49,Buy & Hold,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_1350,0.0,PPO
+BMY,1000-4500,104436.39,75824.47,0.34,2.01,PPO,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251019_2310,0.0,PPO
+BRK-B,0-3500,102186.84,151616.95,0.205,2.64,Buy & Hold,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251019_2310,0.0,PPO
+COST,500-4000,102590.1,184037.34,0.445,1.37,Buy & Hold,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251019_2310,0.0,PPO
+CRM,0-3500,128200.69,267545.3,0.344,26.4,Buy & Hold,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_1350,0.0,PPO
+CSCO,1000-4500,109951.71,136931.48,0.441,2.47,Buy & Hold,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_2016,0.0,PPO
+CVX,1000-4500,195084.48,94264.15,0.678,12.31,PPO,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_2016,0.0,PPO
+DHR,500-4000,111338.83,95260.8,0.428,4.57,PPO,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251021_1400,0.0,PPO
+IBM,0-3500,109118.62,166544.14,0.552,3.31,Buy & Hold,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251021_1400,0.0,PPO
+INTC,500-4000,132312.02,75258.22,0.364,11.63,PPO,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_2016,0.0,PPO
+JPM,1000-4500,109225.22,195980.64,0.449,5.63,Buy & Hold,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_2016,0.0,PPO
+KO,500-4000,108139.24,110634.14,0.457,4.64,Buy & Hold,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251021_1400,0.0,PPO
+LIN,1000-4500,100527.63,122830.39,0.124,0.91,Buy & Hold,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251021_1400,0.0,PPO
+LLY,1000-4500,109918.23,172072.11,0.445,4.06,Buy & Hold,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_2016,0.0,PPO
+LOW,0-3500,115938.44,128242.79,0.657,3.17,Buy & Hold,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_2016,0.0,PPO
+MA,1000-4500,101001.96,140188.2,0.141,1.66,Buy & Hold,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_2016,0.0,PPO
+MCD,0-3500,112407.81,107777.58,0.394,4.68,PPO,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_2016,0.0,PPO
+META,0-3500,162357.74,502904.61,0.373,33.02,Buy & Hold,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_2016,0.0,PPO
+MRK,500-4000,105582.47,88529.65,0.35,3.33,PPO,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_2016,0.0,PPO
+MSFT,1000-4500,149269.39,142396.4,0.434,19.1,PPO,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_2016,0.0,PPO
+NKE,0-3500,146759.19,70216.98,0.411,14.43,PPO,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_2016,0.0,PPO
+NVDA,0-3500,115492.98,822851.45,0.647,4.93,Buy & Hold,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_2016,0.0,PPO
+PG,0-3500,108230.98,114275.9,0.421,3.17,Buy & Hold,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_2016,0.0,PPO
+PM,1000-4500,122662.01,179636.29,0.512,6.48,Buy & Hold,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_2016,0.0,PPO
+QCOM,0-3500,131404.67,131292.32,0.544,10.43,PPO,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251019_2310,0.0,PPO
+RTX,0-3500,107959.42,118249.92,0.327,6.46,Buy & Hold,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251019_2310,0.0,PPO
+SBUX,500-4000,162394.01,99879.14,0.485,13.29,PPO,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251019_2310,0.0,PPO
+TMO,500-4000,124819.04,93451.74,0.602,9.66,PPO,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251019_2310,0.0,PPO
+TSLA,500-4000,241007.28,124675.52,0.52,33.55,PPO,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_1350,0.0,PPO
+TXN,1000-4500,169103.83,117092.66,0.445,19.37,PPO,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_1350,0.0,PPO
+UNH,1000-4500,156062.59,63554.64,0.702,11.47,PPO,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_1350,0.0,PPO
+UNP,1000-4500,103719.04,111680.19,0.301,1.71,Buy & Hold,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_1350,0.0,PPO
+UPS,0-3500,117327.09,70492.53,0.386,5.08,PPO,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251021_1400,0.0,PPO
+V,1000-4500,103724.6,144907.56,0.245,3.26,Buy & Hold,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251021_1400,0.0,PPO
+WMT,0-3500,106810.19,191963.2,0.621,2.11,Buy & Hold,/content/drive/MyDrive/Results_May_2025/ppo_walkforward_results_20251020_1350,0.0,PPO

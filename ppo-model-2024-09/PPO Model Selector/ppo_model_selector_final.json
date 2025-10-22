@@ -1,0 +1,1120 @@
+{
+  "AAPL": {
+    "model": "PPO",
+    "score": 0.463,
+    "return": 146009.94,
+    "sharpe": 0.463,
+    "drawdown": 12.67,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_AAPL_window1000-4500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_AAPL_window1000-4500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "ABBV": {
+    "model": "PPO",
+    "score": 0.467,
+    "return": 116448.89,
+    "sharpe": 0.467,
+    "drawdown": 6.78,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_ABBV_window1000-4500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_ABBV_window1000-4500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "ABT": {
+    "model": "PPO",
+    "score": 0.489,
+    "return": 109998.82,
+    "sharpe": 0.489,
+    "drawdown": 3.6,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_ABT_window0-3500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_ABT_window0-3500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "ACN": {
+    "model": "PPO",
+    "score": 0.5,
+    "return": 123742.81,
+    "sharpe": 0.5,
+    "drawdown": 5.77,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_ACN_window1000-4500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_ACN_window1000-4500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "ADBE": {
+    "model": "PPO",
+    "score": 0.573,
+    "return": 191042.16,
+    "sharpe": 0.573,
+    "drawdown": 22.45,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_ADBE_window500-4000_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_ADBE_window500-4000_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "AMD": {
+    "model": "PPO",
+    "score": 0.283,
+    "return": 113453.57,
+    "sharpe": 0.283,
+    "drawdown": 7.93,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_AMD_window0-3500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_AMD_window0-3500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "AMGN": {
+    "model": "PPO",
+    "score": 0.392,
+    "return": 112920.0,
+    "sharpe": 0.392,
+    "drawdown": 5.88,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_AMGN_window500-4000_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_AMGN_window500-4000_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "AVGO": {
+    "model": "PPO",
+    "score": 0.428,
+    "return": 156949.01,
+    "sharpe": 0.428,
+    "drawdown": 26.93,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_AVGO_window1000-4500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_AVGO_window1000-4500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "BAC": {
+    "model": "PPO",
+    "score": 0.35,
+    "return": 102972.77,
+    "sharpe": 0.35,
+    "drawdown": 1.49,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_BAC_window500-4000_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_BAC_window500-4000_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "BMY": {
+    "model": "PPO",
+    "score": 0.34,
+    "return": 104436.39,
+    "sharpe": 0.34,
+    "drawdown": 2.01,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_BMY_window1000-4500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_BMY_window1000-4500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "BRK-B": {
+    "model": "PPO",
+    "score": 0.205,
+    "return": 102186.84,
+    "sharpe": 0.205,
+    "drawdown": 2.64,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_BRK-B_window0-3500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_BRK-B_window0-3500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "COST": {
+    "model": "PPO",
+    "score": 0.445,
+    "return": 102590.1,
+    "sharpe": 0.445,
+    "drawdown": 1.37,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_COST_window500-4000_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_COST_window500-4000_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "CRM": {
+    "model": "PPO",
+    "score": 0.344,
+    "return": 128200.69,
+    "sharpe": 0.344,
+    "drawdown": 26.4,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_CRM_window0-3500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_CRM_window0-3500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "CSCO": {
+    "model": "PPO",
+    "score": 0.441,
+    "return": 109951.71,
+    "sharpe": 0.441,
+    "drawdown": 2.47,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_CSCO_window1000-4500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_CSCO_window1000-4500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "CVX": {
+    "model": "PPO",
+    "score": 0.678,
+    "return": 195084.48,
+    "sharpe": 0.678,
+    "drawdown": 12.31,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_CVX_window1000-4500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_CVX_window1000-4500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "DHR": {
+    "model": "PPO",
+    "score": 0.428,
+    "return": 111338.83,
+    "sharpe": 0.428,
+    "drawdown": 4.57,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_DHR_window500-4000_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_DHR_window500-4000_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "IBM": {
+    "model": "PPO",
+    "score": 0.552,
+    "return": 109118.62,
+    "sharpe": 0.552,
+    "drawdown": 3.31,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_IBM_window0-3500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_IBM_window0-3500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "INTC": {
+    "model": "PPO",
+    "score": 0.364,
+    "return": 132312.02,
+    "sharpe": 0.364,
+    "drawdown": 11.63,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_INTC_window500-4000_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_INTC_window500-4000_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "JPM": {
+    "model": "PPO",
+    "score": 0.449,
+    "return": 109225.22,
+    "sharpe": 0.449,
+    "drawdown": 5.63,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_JPM_window1000-4500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_JPM_window1000-4500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "KO": {
+    "model": "PPO",
+    "score": 0.457,
+    "return": 108139.24,
+    "sharpe": 0.457,
+    "drawdown": 4.64,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_KO_window500-4000_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_KO_window500-4000_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "LIN": {
+    "model": "PPO",
+    "score": 0.124,
+    "return": 100527.63,
+    "sharpe": 0.124,
+    "drawdown": 0.91,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_LIN_window1000-4500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_LIN_window1000-4500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "LLY": {
+    "model": "PPO",
+    "score": 0.445,
+    "return": 109918.23,
+    "sharpe": 0.445,
+    "drawdown": 4.06,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_LLY_window1000-4500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_LLY_window1000-4500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "LOW": {
+    "model": "PPO",
+    "score": 0.657,
+    "return": 115938.44,
+    "sharpe": 0.657,
+    "drawdown": 3.17,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_LOW_window0-3500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_LOW_window0-3500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "MA": {
+    "model": "PPO",
+    "score": 0.141,
+    "return": 101001.96,
+    "sharpe": 0.141,
+    "drawdown": 1.66,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_MA_window1000-4500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_MA_window1000-4500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "MCD": {
+    "model": "PPO",
+    "score": 0.394,
+    "return": 112407.81,
+    "sharpe": 0.394,
+    "drawdown": 4.68,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_MCD_window0-3500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_MCD_window0-3500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "META": {
+    "model": "PPO",
+    "score": 0.373,
+    "return": 162357.74,
+    "sharpe": 0.373,
+    "drawdown": 33.02,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_META_window0-3500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_META_window0-3500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "MRK": {
+    "model": "PPO",
+    "score": 0.35,
+    "return": 105582.47,
+    "sharpe": 0.35,
+    "drawdown": 3.33,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_MRK_window500-4000_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_MRK_window500-4000_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "MSFT": {
+    "model": "PPO",
+    "score": 0.434,
+    "return": 149269.39,
+    "sharpe": 0.434,
+    "drawdown": 19.1,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_MSFT_window1000-4500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_MSFT_window1000-4500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "NKE": {
+    "model": "PPO",
+    "score": 0.411,
+    "return": 146759.19,
+    "sharpe": 0.411,
+    "drawdown": 14.43,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_NKE_window0-3500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_NKE_window0-3500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "NVDA": {
+    "model": "PPO",
+    "score": 0.647,
+    "return": 115492.98,
+    "sharpe": 0.647,
+    "drawdown": 4.93,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_NVDA_window0-3500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_NVDA_window0-3500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "PG": {
+    "model": "PPO",
+    "score": 0.421,
+    "return": 108230.98,
+    "sharpe": 0.421,
+    "drawdown": 3.17,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_PG_window0-3500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_PG_window0-3500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "PM": {
+    "model": "PPO",
+    "score": 0.512,
+    "return": 122662.01,
+    "sharpe": 0.512,
+    "drawdown": 6.48,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_PM_window1000-4500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_PM_window1000-4500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "QCOM": {
+    "model": "PPO",
+    "score": 0.544,
+    "return": 131404.67,
+    "sharpe": 0.544,
+    "drawdown": 10.43,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_QCOM_window0-3500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_QCOM_window0-3500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "RTX": {
+    "model": "PPO",
+    "score": 0.327,
+    "return": 107959.42,
+    "sharpe": 0.327,
+    "drawdown": 6.46,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_RTX_window0-3500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_RTX_window0-3500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "SBUX": {
+    "model": "PPO",
+    "score": 0.485,
+    "return": 162394.01,
+    "sharpe": 0.485,
+    "drawdown": 13.29,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_SBUX_window500-4000_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_SBUX_window500-4000_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "TMO": {
+    "model": "PPO",
+    "score": 0.602,
+    "return": 124819.04,
+    "sharpe": 0.602,
+    "drawdown": 9.66,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_TMO_window500-4000_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_TMO_window500-4000_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "TSLA": {
+    "model": "PPO",
+    "score": 0.52,
+    "return": 241007.28,
+    "sharpe": 0.52,
+    "drawdown": 33.55,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_TSLA_window500-4000_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_TSLA_window500-4000_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "TXN": {
+    "model": "PPO",
+    "score": 0.445,
+    "return": 169103.83,
+    "sharpe": 0.445,
+    "drawdown": 19.37,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_TXN_window1000-4500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_TXN_window1000-4500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "UNH": {
+    "model": "PPO",
+    "score": 0.702,
+    "return": 156062.59,
+    "sharpe": 0.702,
+    "drawdown": 11.47,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_UNH_window1000-4500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_UNH_window1000-4500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "UNP": {
+    "model": "PPO",
+    "score": 0.301,
+    "return": 103719.04,
+    "sharpe": 0.301,
+    "drawdown": 1.71,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_UNP_window1000-4500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_UNP_window1000-4500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "UPS": {
+    "model": "PPO",
+    "score": 0.386,
+    "return": 117327.09,
+    "sharpe": 0.386,
+    "drawdown": 5.08,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_UPS_window0-3500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_UPS_window0-3500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "V": {
+    "model": "PPO",
+    "score": 0.245,
+    "return": 103724.6,
+    "sharpe": 0.245,
+    "drawdown": 3.26,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_V_window1000-4500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_V_window1000-4500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  },
+  "WMT": {
+    "model": "PPO",
+    "score": 0.621,
+    "return": 106810.19,
+    "sharpe": 0.621,
+    "drawdown": 2.11,
+    "sortino": null,
+    "turnover": null,
+    "trade_count": null,
+    "stability": {},
+    "regime": "unknown",
+    "rl_profile": "fast",
+    "artifact": {
+      "path": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_WMT_window0-3500_model.zip",
+      "vecnorm": "/content/drive/MyDrive/Results_May_2025/ppo_models_master/ppo_WMT_window0-3500_vecnorm.pkl",
+      "features": null,
+      "load_ms": 180,
+      "mem_mb": 512,
+      "exists": false
+    },
+    "selection": {
+      "mode": "single",
+      "primary": "PPO",
+      "secondary": null
+    }
+  }
+}
